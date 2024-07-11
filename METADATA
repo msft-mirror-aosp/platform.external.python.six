@@ -1,17 +1,20 @@
-name: "six"
-description:
-    "Python PyPI six package"
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/python/six
+# For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
 
+name: "six"
+description: "Python PyPI six package"
 third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://pypi.python.org/pypi/six"
-  }
-  url {
-    type: GIT
-    value: "https://github.com/benjaminp/six"
-  }
-  version: "1.11.0"
   license_type: NOTICE
-  last_upgrade_date { year: 2018 month: 1 day: 4 }
+  last_upgrade_date {
+    year: 2024
+    month: 7
+    day: 9
+  }
+  homepage: "https://pypi.python.org/pypi/six"
+  identifier {
+    type: "Git"
+    value: "https://github.com/benjaminp/six"
+    version: "1.16.0"
+  }
 }
