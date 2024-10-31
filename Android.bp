@@ -22,3 +22,9 @@ python_library {
         "six.py",
     ],
 }
+
+dirgroup {
+    name: "trusty_dirgroup_external_python_six",
+    dirs: ["."],
+    visibility: ["//trusty/vendor/google/aosp/scripts"],
+}
