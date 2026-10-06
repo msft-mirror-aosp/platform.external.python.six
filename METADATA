@@ -18,4 +18,9 @@ third_party {
     version: "ebd9b3af90247b8858d415a05e96e9ee61e48d07"
     closest_version: "1.17.0"
   }
+  security: {
+    tag: "android:on_device_usage"
+    tag: "android:privilege_level:privileged"
+    tag: "android:untrusted_input"
+  }
 }
